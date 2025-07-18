@@ -31,16 +31,16 @@ body {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 15px 0;
-  gap: 2.5rem;
+  padding: 14px 0;
+  gap: 2rem;
 }
 
 #navBar nav ul li a {
   color: #a6f0c6;
   font-weight: 600;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   text-decoration: none;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 6px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -56,11 +56,11 @@ body {
 main {
   flex-grow: 1;
   width: 90%;
-  max-width: 960px;
+  max-width: 900px;
   margin: 2rem auto 3rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 /* Hero Section */
@@ -69,63 +69,64 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   text-align: center;
 }
 
 #heroText {
-  flex: 1 1 300px;
+  flex: 1 1 320px;
   animation: fadeInUp 0.8s ease forwards;
 }
 
 #heroText h1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   color: #00b37e;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.04em;
   font-weight: 700;
 }
 
 #heroText p {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: #cde9db;
-  max-width: 400px;
+  max-width: 380px;
   margin: 0 auto;
+  line-height: 1.4;
 }
 
 #heroImage {
-  flex: 1 1 180px;
+  flex: 0 0 180px;
   animation: fadeIn 1.2s ease forwards;
 }
 
 #heroImage img {
-  max-width: 180px;
-  max-height: 180px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 5px solid #00b37e;
+  border: 4px solid #00b37e;
   object-fit: cover;
-  box-shadow: 0 0 15px #00b37eaa;
+  box-shadow: 0 0 12px #00b37eaa;
   transition: transform 0.3s ease;
 }
 
 #heroImage img:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 /* Technologies Section */
 #techContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1.3rem;
   padding: 0 1rem;
 }
 
 .techCard {
   background-color: #013d33;
   border-radius: 12px;
-  padding: 1.5rem 1rem;
+  padding: 1.2rem 0.8rem;
   text-align: center;
-  box-shadow: 0 4px 10px #007c5e66;
+  box-shadow: 0 4px 8px #007c5e66;
   cursor: default;
   transition:
     transform 0.3s ease,
@@ -137,14 +138,14 @@ main {
 .techCard:hover,
 .techCard:focus-within {
   background-color: #005a40;
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px #00b37ecc;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px #00b37ecc;
 }
 
 .techCard img {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 0.8rem;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 0.7rem;
   filter: drop-shadow(0 0 1px #00b37eaa);
   transition: filter 0.3s ease;
 }
@@ -154,7 +155,7 @@ main {
 }
 
 .techCard h3 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: #d4f1e4;
   user-select: none;
@@ -163,7 +164,7 @@ main {
 /* Contact Form Container */
 #googleFormContainer {
   background-color: #013f35;
-  padding: 2rem 1rem;
+  padding: 1.8rem 1rem;
   border-radius: 12px;
   box-shadow: 0 6px 15px #00674499;
   display: flex;
@@ -176,20 +177,20 @@ main {
   width: 100%;
   max-width: 700px;
   min-height: 650px;
-  box-shadow: 0 0 20px #00b37e88;
+  box-shadow: 0 0 18px #00b37e88;
   transition: box-shadow 0.3s ease;
 }
 
 #googleFormContainer iframe:hover {
-  box-shadow: 0 0 30px #00ff99cc;
+  box-shadow: 0 0 28px #00ff99cc;
 }
 
 /* Social Links */
 #socialsContainer {
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
-  padding: 1.5rem 0;
+  gap: 2rem;
+  padding: 1.3rem 0;
 }
 
 .social-link {
@@ -201,8 +202,8 @@ main {
 }
 
 .social-link img {
-  width: 45px;
-  height: 45px;
+  width: 42px;
+  height: 42px;
   display: block;
   filter: brightness(1.1);
   transition: transform 0.3s ease, filter 0.3s ease;
@@ -220,7 +221,7 @@ footer {
   background-color: #014d40;
   color: #a6f0c6;
   text-align: center;
-  padding: 1.2rem 1rem;
+  padding: 1rem 1rem;
   font-size: 0.9rem;
   box-shadow: inset 0 1px 3px #008857aa;
   user-select: none;
@@ -254,26 +255,26 @@ footer {
   }
 
   #heroText h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
 
   #techContainer {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   }
 
   #socialsContainer {
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 
   .social-link img {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
   }
 }
 
 @media (max-width: 400px) {
   #heroText h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   #heroText p {
