@@ -1,68 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Cnochur Saunders</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cnochur Saunders | Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Cnochur Saunders, a development enthusiast passionate about building software." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div id="navBar">
-        <nav>
-            <ul>
-                <li><a href="#googleFormContainer">Contact</a></li>
-                <li><a href="#socialsContainer">Socials</a></li>
-            </ul>
-        </nav>
+  <!-- Navigation -->
+  <header id="navBar">
+    <nav>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div id="heroText">
+      <h1>Cnochur Saunders</h1>
+      <p>Programming enthusiast exploring all things development and design.</p>
     </div>
-    <main>
-        <div id="hero">
-            <div id="heroText">
-                <h1>Cnochur Saunders</h1>
-                <p>Programming enthusiast interested in all things development.</p>
-            </div>
-            <div id="heroImage">
-                <img src="./assests/1700494483060.jpg">
-            </div>
-        </div>
-        <div id="techContainer">
-            <div id="techCard">
-                <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/python.svg">
-                <h3>Python</h3>
-            </div>
-            <div id="techCard">
-                <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/java.svg">
-                <h3>Java</h3>
-            </div>
-            <div id="techCard">
-                <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/databases/mysql.svg">
-                <h3>SQL</h3>
-            </div>
-            <div id="techCard">
-                <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/javascript.svg">
-                <h3>JavaScript</h3>
-            </div>
-            <div id="techCard">
-                <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/html5.svg">
-                <h3>HTML</h3>
-            </div>
-        </div>
-        <div id="googleFormContainer">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScriPVibLdNiGV_rnDcs8gXGNNoCOjMVDTIBsZkpmXKYChiaA/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…
-            </iframe>
-        </div>
-        <div id="socialsContainer">
-            <a href="https://linkedin.com/in/cnochursaunders" class="social-link">
-                <img src="./assests/LinkedIN.png" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/Cnochur" class="social-link">
-                <img src="./assests/Github.png" alt="GitHub">
-            </a>
-        </div>
-    </main>
-    <footer>
-        Copyright Cnochur Saunders 2025&#169
-    </footer>
-<script type="text/javascript" src="main.js"></script>
+    <div id="heroImage">
+      <img src="./assets/1700494483060.jpg" alt="Portrait of Cnochur Saunders" />
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section id="projects">
+    <div id="techContainer">
+      <div class="techCard">
+        <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/python.svg" alt="Python logo" />
+        <h3>Python</h3>
+      </div>
+      <div class="techCard">
+        <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/java.svg" alt="Java logo" />
+        <h3>Java</h3>
+      </div>
+      <div class="techCard">
+        <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/databases/mysql.svg" alt="MySQL logo" />
+        <h3>SQL</h3>
+      </div>
+      <div class="techCard">
+        <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/javascript.svg" alt="JavaScript logo" />
+        <h3>JavaScript</h3>
+      </div>
+      <div class="techCard">
+        <img src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/html5.svg" alt="HTML5 logo" />
+        <h3>HTML</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <div id="googleFormContainer">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScriPVibLdNiGV_rnDcs8gXGNNoCOjMVDTIBsZkpmXKYChiaA/viewform?embedded=true"
+        width="640"
+        height="600"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Contact form">
+        Loading…
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Social Links -->
+  <section id="socials" class="socialsContainer">
+    <a href="https://linkedin.com/in/cnochursaunders" class="social-link" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/LinkedIN.png" alt="LinkedIn profile for Cnochur Saunders" />
+    </a>
+    <a href="https://github.com/Cnochur" class="social-link" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/Github.png" alt="GitHub profile for Cnochur Saunders" />
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 <a href="https://Cnochur.github.io">Cnochur Saunders</a>. All rights reserved.</p>
+  </footer>
 </body>
 </html>
