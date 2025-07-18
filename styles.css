@@ -95,7 +95,6 @@ main {
 }
 
 .hero-image {
-  flex: 0 0 250px;
   animation: fadeIn 1.2s ease forwards;
 }
 
